@@ -101,7 +101,7 @@ ifconfig
 
 
 
-![img_24.png](img_24.png)
+![img/img_24.png](img/img_24.png)
 
 
 
@@ -116,7 +116,7 @@ Stap 3:
     Typ **CTRL + END** of **ALT + /** om de cursor naar het einde van de lijn te plaatsen.
     Pas het ip-adres aan zoals aangegeven op onderstaande afbeelding.
 
-![img_28.png](img_28.png)
+![img/img_28.png](img/img_28.png)
 
 Sla hierna het document op met **CTRL + S** en sluit het document met **CTRL + X**.
 
@@ -165,12 +165,12 @@ Open het programma van zodra het geïnstalleerd is.
 
 Voer volgende stappen uit:
 
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
-![img_5.png](img_5.png)
-![img_7.png](img_7.png)
-![img_8.png](img_8.png)
-![img_9.png](img_9.png)
+![img/img_2.png](img/img_2.png)
+![img/img_3.png](img/img_3.png)
+![img/img_5.png](img/img_5.png)
+![img/img_7.png](img/img_7.png)
+![img/img_8.png](img/img_8.png)
+![img/img_9.png](img/img_9.png)
 
 
 
@@ -198,7 +198,7 @@ Navigeren in het document gebeurt met de pijltjes.
 
 Sla hierna het document op met CTRL + S en sluit het document met CTRL + X.
 
-![img_10.png](img_10.png)
+![img/img_10.png](img/img_10.png)
 
 ### Opstarten van de Turtlebot
 
@@ -243,7 +243,7 @@ Mogelijke fouten hierbij zijn:
 ifconfig
 ```
 Op onderstaande afbeelding kan de locatie van het IP-adres gevonden worden.
-![img_26.png](img_26.png)
+![img/img_26.png](img/img_26.png)
 
 Ook de TurtleBot heeft een .bashrc bestand. In dit bestand geven we de TurtleBot, wanneer deze opstart,
 mee wie de ROS_MASTER_URI en ROS_HOSTNAME is.
@@ -266,7 +266,7 @@ Vervang {IP_ADDRESS_OF_REMOTE_PC} door het IP-adres van de ingestelde computer.
 
 Vervang {IP_ADDRESS_OF_RASPBERRY_PI_3} door het IP-adres van de Rasberry Pi.
 
-![img_27.png](img_27.png)
+![img/img_27.png](img/img_27.png)
 
 Sla hierna het document op met **CTRL + S** en sluit het document met **CTRL + X**.
 
@@ -287,7 +287,7 @@ speciaal voor ROS om een compleet open-source hardware en software te voorzien. 
 opengesteld voor het brede publiek. Zowel studenten die met Arduino of scratch werken en experts die met meer 
 traditionele software werken kunnen aan de slag met het OpenCR bord.
 
-![img_16.png](img_16.png)
+![img/img_16.png](img/img_16.png)
 
 ###OpenCR setup
 
@@ -315,7 +315,7 @@ cd ./opencr_update
 ```
 Stap 5: Wanneer de upload succesvol is, zou de terminal er als volgt moeten uitzien:
 
-![img_14.png](img_14.png)
+![img/img_14.png](img/img_14.png)
 
 Stap 6: Indien de upload niet succesvol is, kan er geüpload worden in de recovery mode.
 Volf volgende stappen om de OpenCR in recovery mode te brengen. Wanneer de OpenCR in recovery mode is, 
@@ -326,7 +326,7 @@ zal de status led, knipperen.
 - Laat de Reset knop los.
 - Laat de SW2 drukknop los.
 
-![img_17.png](img_17.png)
+![img/img_17.png](img/img_17.png)
 
 ### OpenCR Test
 
@@ -648,7 +648,7 @@ Stap 1:
 Door in Rviz op de groene pijl te klikken, kunnen we de robot een startlocatie en kijkrichting geven.
 Klik nu op de locatie op de kaart waar de robot zich moet bevinden en sleep de pijl in de correcte kijkrichting.
 
-![img_18.png](img_18.png)
+![img/img_18.png](img/img_18.png)
 
 Stap 2: 
 
@@ -669,7 +669,7 @@ Beweeg de robot in alle richtingen zodat de software zijn locatie precies kan be
 de gemaakte kaarten gelijk proberen leggen met de observatie van de laserscan van de robot. Hoe meer deze beide 
 kaarten overeenkomen, hoe meer exact de geschatte locatie zal zijn.
 
-![img_20.png](img_20.png)
+![img/img_20.png](img/img_20.png)
 
 
 
@@ -693,7 +693,7 @@ zal de robot gebruik maken van de 'local path planner' om dit object te vermijde
 Klik op de rode pijl in het menu van Rviz. Klik vervolgens op de plaats op de kaart naar waar de robot moet 
 rijden en sleep in welke richting deze moet kijken wanneer de robot zijn doel bereikt heeft.
 
-![img_21.png](img_21.png)
+![img/img_21.png](img/img_21.png)
 
 
 
@@ -701,14 +701,14 @@ rijden en sleep in welke richting deze moet kijken wanneer de robot zijn doel be
 
 
 
-![img_22.png](img_22.png)
+![img/img_22.png](img/img_22.png)
 
 ---
 ---
 
 ##Gazebo simulatie
 
-![img_23.png](img_23.png)
+![img/img_23.png](img/img_23.png)
 
 De TurtleBot3 kan ook geprogrammeerd en ontwikkeld worden in een virtuele simulatieomgeving. TurtleBot3 is namelijk 
 beschikbaar in de 3D robot simulator Gazebo. De Gazebo simulatieomgeving maakt gebruik van ROS Gazebo Packages.
@@ -829,11 +829,11 @@ catkin_make
 
 De terminal zou er min of meer als volgt moeten uitzien.
 
-![img_29.png](img_29.png)
+![img/img_29.png](img/img_29.png)
 
 Er zijn hierna een aantal mappen toegevoeg aan de map catkin_ws.
 
-![img_30.png](img_30.png)
+![img/img_30.png](img/img_30.png)
 
 In de src map worden de packages bewaard. ROS packages creëren alleen een uitvoerbaar bestand wanneer deze zich in
 de src map bevindt.
@@ -851,7 +851,7 @@ Voeg volgende lijn toe op het einde van het bestand.
 ```shell
 source ~/catkin_ws/devel/setup.bash
 ```
-![img_31.png](img_31.png)
+![img/img_31.png](img/img_31.png)
 
 Wanneer het catkin_make commando uitgevoerd wordt, wordt elke package gebuild, deze built bestanden worden 
 in de build map opgeslagen. Ook worden er uitvoerbare bestanden gemaakt. Deze bestanden worden in de devel map opgeslagen.
@@ -1097,7 +1097,7 @@ rosrun  hello_world listener.py
 ```
 De terminals zouden er op dat moment zo moeten uitzien.
 
-![img_32.png](img_32.png)
+![img/img_32.png](img/img_32.png)
 
 ###Subscriben van een rostopic
 
@@ -1113,7 +1113,7 @@ verkregen worden van topics die gepublished worden op dat moment.
 Om even op te frissen hoe deze verbinding tot stand wordt gebracht.
 - Stap 1
 
-![img_34.png](img_34.png)
+![img/img_34.png](img/img_34.png)
 
 In het voorbeeld wordt de batterijstatus van de Turtlebot3 opgevraagd. De TurtleBot3 published deze constant.
 Indien meer informatie over een topic gewenst is, kan volgende commando gebruikt worden.
@@ -1122,7 +1122,7 @@ Indien meer informatie over een topic gewenst is, kan volgende commando gebruikt
 roptopic info /topic_naam
 ```
 
-![img_35.png](img_35.png)
+![img/img_35.png](img/img_35.png)
 
 Hieruit kan het message_type gehaald worden om deze te importeren in de subscriber node.
 
@@ -1135,7 +1135,7 @@ In plaats van het volledige bericht te print met 'print(msg)' kan gekozen worden
 gebruiken. Het is mogelijk met 'rostopic echo /topic_naam' te zien hoe de topic is volledig uit ziet.
 Wanneer nu 'print(msg.voltage)' gevraagd wordt, zal enkel dat deeltje geprint worden.
 
-![img_36.png](img_36.png)
+![img/img_36.png](img/img_36.png)
 
 ListenerBattery.py
 ```python
@@ -1166,11 +1166,11 @@ if __name__ == '__main__':
 De bovenstaande code zou een bericht zoals dit moeten weergeven. 
 Zoals gevraagd wordt de header en de spanning weergegeven.
 
-![img_33.png](img_33.png)
+![img/img_33.png](img/img_33.png)
 
 
 ###Subscriben op de LDS
-![img_37.png](img_37.png)
+![img/img_37.png](img/img_37.png)
 
 Om de Turtlebot3 uiteindelijk autonoom te laten rijden, moet de laser uitgelezen en geïnterpreteerd worden.
 In onderstaand programma wordt door de main functie een node geïnitialiseerd en er wordt gesubscribed op het 
