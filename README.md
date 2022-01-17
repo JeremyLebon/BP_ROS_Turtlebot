@@ -1,4 +1,4 @@
-Credits: Robin De Pelsemaeker - Bachelor Thesis 2021-22
+Credits: Robin De Pelsemaeker - Bachelor Thesis - [ROSdriven](https://www.rosdriven.dev/) - Turtlebot3 (2021-22)
 # Table of contents
 1.[BAP ROSdriven](#BAP ROSdriven)
 
